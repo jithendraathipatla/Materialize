@@ -1,0 +1,423 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <!--=============== basic  ===============-->
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+     <!-- Compiled and minified CSS -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link type="text/css" rel="stylesheet" href="main.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+   
+<script type="text/javascript"></script>
+
+
+<script type="text/javascript" src="js/script.js"></script>
+  <style>
+     
+      h5{
+       font-size: 1.875rem;
+       line-height: 2.5rem;
+       letter-spacing: .5px;
+       color: #98AAB8;
+    margin-right: -.5px; font-weight:700; font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+      }
+      input {
+    line-height: normal;
+    padding: 10px 9px 10px 47px;
+    border-radius: 4px;
+    border: 1px solid #2F3B59;
+    background: #f9f9f9;
+    font-family: quick-sand, sans-serif;
+                    font-size: 13px; 
+}
+     .input_field1{
+        line-height: normal;
+    padding: 12px 9px 12px 47px;
+    border-radius: 4px;
+    border: 1px solid #2F3B59;
+    background: #f9f9f9;
+    width:100%;
+    font-family: quick-sand, sans-serif;
+    font-size: 13px;
+    margin-bottom: 20px; 
+}
+.text_area{
+    padding:69px 280px;
+}
+.input_date{
+        line-height: normal;
+    padding: 13px 9px 10px 47px;
+    border-radius: 4px;
+    border: 1px solid #2F3B59;
+    background: #f9f9f9;
+    width:100%;
+    margin-bottom: 20px; 
+}
+.form_header {
+    font-family: quick-sand, sans-serif;
+    font-size: 13px;
+    /* float: left; */
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color:#666;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 20px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.posterImg{
+    text-align: center;
+    margin: 0px 0;
+    width: 164px;
+    height: 159px;
+    padding: 55px 2px 11px 5px;
+    border: 1px solid #2F3B59;
+    border-radius: 7px;
+    font-size: 12px;
+    color: #98AAB8;
+    margin-bottom: 20px;
+}
+.breadcrumb:before {
+    content: '\E5CC';
+    color: rgba(255,255,255,0.7);
+    vertical-align: top;
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    color: #566985;
+    font-size: 25px;
+    margin: 0 10px 0 8px;
+    -webkit-font-smoothing: antialiased;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    /* color: #ffab40; */
+    color: #566985;}
+
+    textarea.materialize-textarea {
+    overflow-y: hidden;
+    border: none;
+    border: 1px solid #2F3B59;
+    padding: .8rem 0 1.6rem 0;
+    resize: none;
+    min-height: 3rem;
+    border-radius: 7px;
+    background: #f9f9f9;
+}
+
+input[type=text]:not(.browser-default){
+    background-color: transparent;
+    border: none;
+    /* border-bottom: 1px solid #9e9e9e; */
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 20px 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+  </style>
+      <!-- Fav icon -->
+</head>
+        <div class="navbar-fixed">
+            <nav>
+              <div class="nav-wrapper" style="background: #2F3B59;">
+                <a href="#!" class="brand-logo">Logo</a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="sass.html">Sass</a></li>
+                  <li><a href="badges.html">Components</a></li>
+                </ul>
+              </div>
+            </nav>
+        </div>
+        
+            <div class="row">
+              <div style="height:30px; background:white;"></div>
+          </div>
+             <div class="row">
+                    <div class="col s12 m1"></div>
+                    <div class="col s12 m10">
+                        <nav style="border: 1px solid #eee;background: #F8FBFE; border-radius:5px;">
+                                
+                            <div class="nav-wrapper">
+                              <div class="col s12">
+                                    <a href="#!" class="breadcrumb" style="color: #566985" style="float:left;">Add Listing</a>
+                                <a href="#!" class="breadcrumb" style="color:#566985;float: right">Add conference</a>
+                                <a href="#!" class="breadcrumb"style="color: #566985;float: right">Profile</a>
+                                <a href="#!" class="breadcrumb" style="color: #566985;float: right">Home</a>
+                              </div>
+                            </div>
+                          </nav>
+                    </div>
+                    <div class="col s12 m1"></div>
+            </div>     
+            
+
+            <div class="row">
+                    <div class="col s12 m1"></div>
+                <div class="col s12 m3">
+                        <div class="card sticky-action" style="border: 1px solid #eee;">
+                       <div class="card-action">
+                            <div class="card" style="background: #F8FBFE; border-radius:5px;border: 1px solid #eee;">
+                                   
+                                    <div class="card-action">
+                                     <a href="#" style="text-transform: none;color:#50596E; font-family: quick-sand, sans-serif; font-size:13px;font-weight:600">Edit Profile</a>
+                                    </div>
+                                    <div class="card-action">
+                                     <a href="#"  style="text-transform: none;color:#50596E;font-family: quick-sand, sans-serif; font-size:13px;font-weight:600">Add event</a>
+                                    </div>
+                                    <div class="card-action">
+                                     <a href="#"  style="text-transform: none; color:#50596E;font-family: quick-sand, sans-serif; font-size:13px;font-weight:600 ">Added Events</a>
+                                    </div>
+                                    <div class="card-action">
+                                  <a class="waves-effect waves-light btn-small" style="background: #4DB7FE; color: #566985;">Save</a> 
+                                    </div>
+                                  </div>
+                       </div>
+                            
+                        <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                </div>
+                                        
+            </div>
+                    
+                  
+                <div class="col s12 m7">
+                    <h5 style="text-align:center;font-family: quick-sand, sans-serif;">Conference Details</h5>
+                    <div class="row">
+                            <div class="col s12">
+                            <div class="form_header">Conference Link</div>
+                            <i class="fa fa-link"></i><input type=""  class="input_field1"  placeholder="Conference Link" autocomplete="off">
+                              
+                            </div>
+
+                    <div class="col s12 m12">
+                            <div class="form_header">Conference Name</div>
+                            <i class="fa fa-address-book"></i><input type="" class="input_field1" placeholder="Conference Name" autocomplete="off">
+                    </div>
+                    
+                    <div class="col s12 m12">
+                            <div class="form_header">Conference URL</div>
+                            <i class="fa fa-link"></i> <input type="" class="input_field1"  placeholder="Conference URL">
+                     </div>
+                     <div class="col s12 m12">
+                            <div class="form_header">Conference Registration URL</div>
+                            <i class="fa fa-ticket"></i> <input type="" class="input_field1"  placeholder="Conference Registration URL">
+                     </div>
+                    <div class="col s12 m6">
+                           <div class="form_header">Conference Start Date</div>
+                           <i class="fa fa-calendar-check-o"></i><input  type="" class="input_date" id="datepicker1"  placeholder="yyy-mm-dd" onclick="jithendra();">
+                    </div>
+                    <div class="col s12 m6">
+                           <div class="form_header">Conference End Date</div>
+                           <i class="fa fa-calendar-check-o"></i><input type="" class="input_date" id="datepicker2"  placeholder="yyy-mm-dd" onclick="jithendr1();">
+                    </div>
+                    <div class="col s12 m12">
+                            <div class="form_header">Twitter Handle</div>
+                            <i class="fa fa-twitter"></i><input type="" class="input_field1"  placeholder="City">
+                     </div>
+                     <div class="col s12 m12">
+                           <div style="border-bottom: 1px solid #eee; margin-top:30px;"></div>
+                     </div>
+
+
+                     <div class="col s12 m4">
+                        
+                     </div>
+
+                     <div class="col s12 m12">
+                            <div class="form_header" style="margin-top:20px;">City</div>
+                            <i class="fa fa-map-marker"></i>  <input  type="" class="input_field1" type="text" placeholder="City">
+                     </div>
+                     <div class="col s12 m12">
+                            <div class="form_header">Venue</div>
+                            <i class="fa fa-map-marker"></i><input  type="" class="input_field1" type="text" placeholder="Venue">
+                          
+                     </div>
+                     <div class="col s12 m12">
+                            <div class="form_header" style="width: 338px;">Keywords</div>
+                          <input  type="" class="input_field1" type="text" placeholder="Keywords">
+                          
+                     </div>
+                      
+                     <div class="col s12 m12">
+                            <div class="form_header">Conference City</div>
+                           
+                          <input  type="file" class="input_field1" type="text" placeholder="Venue" style="opacity:0px;">
+                          
+                     </div>
+
+                     <div class="col s12 m12">
+                            <div style="border-bottom: 1px solid #eee;margin-bottom:20px;margin-top: 21px;"></div>
+                      </div>
+
+                    
+                     <div class="col s12 m12">
+                        <div style="height:10px;"></div>
+                      </div>
+
+
+
+                     <div class="col s12 m12">
+                            <a class="waves-effect waves-light btn" style="background: #2F3B59;border-radius:5px;">Submmit</a>
+                     </div>
+
+                     <div class="col s12 m12">
+                            <div style="border-bottom: 1px solid #eee; margin-top:30px;"></div>
+                      </div>
+
+
+                      <div class="col s12 m12">
+                            <div style="border-bottom: 1px solid #eee; margin-top:30px;"></div>
+                      </div>
+
+                     
+                   <!-- <div class="col s12 m4">
+                      <div class="form_header" >Poster Image</div>
+                      <div class="input" style="border:none;border: 1px solid #2F3B59;;height: 180px;border-radius: 5px;background: #f9f9f9;/* padding-bottom: 16px; */">
+                        <input type="text"></div>
+                      <input type="file" class="input_field1" style="height: 180px;
+                      opacity: -0.7;
+                      position: absolute;
+                      width: 146px;
+                      margin-top: -180px;">
+                     
+                  </div>
+                  <div class="col s12 m3"></div>
+                  
+                   <div class="col s12 m4">
+                        <div class="form_header" >Card Image</div>
+                        <div class="input" style="border:none;border: 1px solid #2F3B59;height: 180px;border-radius: 5px;background: #f9f9f9;/* padding-bottom: 16px; */">
+                          <input type="text"></div>
+                        <input type="file" class="input_field1" style="height: 180px;
+                        opacity: -0.7;
+                        position: absolute;
+                        width: 146px;
+                        margin-top: -180px;">
+                    </div> -->
+                
+<!-- 
+                    
+                    <div class="col s12 m12">
+                     <hr>
+                     </div>
+                     <div class="col s12 m12">
+                            <h5>My Socials</h5>
+                            </div>
+                  </div>
+                  <div class="col s12 m12">
+                        <div class="form_header">Facebook </div>
+                        <i class="fa fa-facebook"></i><input  type="" class="input_field1" type="text" placeholder="https://facebook.com/">
+                      
+                 </div>
+                 <div class="col s12 m12">
+                        <div class="form_header">LinkedIn </div>
+                        <i class="fa fa-linkedin"></i><input  type="" class="input_field1" type="text" placeholder="Linkedin.com">
+                      
+                 </div>
+                 <div class="col s12 m12">
+                        <div class="form_header">Twitter </div>
+                        <i class="fa fa-twitter"></i><input  type="" class="input_field1" type="text" placeholder="https://twitter.com/">
+                      
+                 </div>
+                </div> -->
+            </div>
+            </div>
+        </div>
+        
+    
+           
+          
+            <footer class="page-footer" style="background: #2F3B59;">
+                <div class="container">
+                  <div class="row">
+                    <div class="col s12 m3">
+                      <h5 class="white-text">KonfHub</h5>
+                      <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    </div>
+                    <div class="col s12 m3">
+                      <h5 class="white-text">Link</h5>
+                      <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                      </ul>
+                    </div>
+                    <div class="col s12 m3">
+                            <h5 class="white-text">Link</h5>
+                            <ul>
+                              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                            </ul>
+                        </div>
+                        <div class="col s12 m3">
+                                <h5 class="white-text">Link</h5>
+                                <ul>
+                                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                                </ul>
+                            </div>
+                  </div>
+                  
+                </div>
+                <div class="footer-copyright">
+                  <div class="container">
+                  © 2014 Copyright Text
+                  <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                  </div>
+                </div>
+            </footer>
+        <script>
+            
+           function jithendra(){
+$('#datepicker1').pickadate({
+  selectMonths: true,// Creates a dropdown to control month
+  selectYears: 15 // Creates a dropdown of 15 years to control year,
+});
+}   
+
+function jithendr1(){
+ $('#datepicker2').pickadate({
+selectMonths: true,// Creates a dropdown to control month
+selectYears: 15 // Creates a dropdown of 15 years to control year,
+});
+}
+$('.dropdown-trigger').dropdown();
+var instance = M.Dropdown.getInstance(elem);
+        </script>
+    </body>
+</html>
